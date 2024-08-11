@@ -1,7 +1,13 @@
 export default function Home() {
   return (
-    <div>
-      web
-    </div>
+      <div>
+          <a href="/">
+              Home
+          </a>
+          <a href="/docs">
+              Docs (Multi Zones)
+          </a>
+          web
+      </div>
   );
 }
