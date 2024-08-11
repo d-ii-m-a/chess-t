@@ -2,8 +2,13 @@
 
 const { DOCS_URL} = process.env
 
+
+
 const nextConfig = {
     async rewrites() {
+
+        console.log("xxxx")
+        console.log(process.env.DOCS_URL)
         return [
             /**
              * Rewrites for Multi Zones
